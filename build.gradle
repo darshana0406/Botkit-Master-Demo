@@ -9,6 +9,6 @@ dependencies {
 }
 
 task runJava(type: JavaExec) {
-    main = 'UploadImport' // Replace 'HelloWorld' with the name of your main class if different
+    main = 'Export' // Replace 'HelloWorld' with the name of your main class if different
     classpath = sourceSets.main.runtimeClasspath
 }
